@@ -1,33 +1,19 @@
 # Vistia
 
-> [!NOTE]
-> This document will be part of the terms and conditions of your agreement and, therefore, needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g., `![](image.png)` instead of `<img>`).
->
-> See the [Grants Program Process](https://grants.web3.foundation/docs/process) on how to submit a proposal.
-
-- **Team Name:** Legal name of your team (e.g. JsonCorp)
+- **Team Name:** Vistia
 - **Payment Details:**
-  - **DOT**: For the **DOT** compensation, please provide a Polkadot address (e.g. 15oF4...).
-  - **Payment**: For the **USDC** portion of the payment, please provide a Polkadot AssetHub address and the currency (e.g. 15oF4... (USDC)). 
-- **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 1, 2 or 3
+  - **DOT**: 
+  - **Payment**:(USDC) 
+- **[Level](https://grants.web3.foundation/docs/Introduction/levels):** Level 1
 
-> [!IMPORTANT]
-> *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide the name and/or pull request of said grant on the first line of this section.
+This application is in response to an RFP
 
 ### Overview
 
-Please provide the following:
-
-- If the name of your project is not descriptive, a tagline (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
 
 ### Project Details
 
@@ -52,10 +38,25 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
+Where and how does your project fit into the ecosystem?
+Vistia fits into the Polkadot ecosystem as an AI-native trading and analytics layer. It integrates Substrate with Polkadot APIs to collect on-chain data from parachains, applies predictive AI models for price forecasting and historical analysis, and deploys smart contracts for staking, fund delegation, and profit sharing. A React/Polkadot.js interface makes these features accessible and user-friendly, lowering the barrier for interacting with Polkadot’s multi-chain environment.
+
+Who is your target audience?
+The primary audience is traders on Polkadot who seek better tools for analyzing markets, predicting price movements, and managing capital more effectively across parachains.
+
+What need(s) does your project meet?
+The project addresses three clear gaps: 
+(1) the steep learning curve for new users engaging with Polkadot’s multi-chain design
+(2) the absence of AI-native tools that analyze and predict trading opportunities
+(3) the lack of AI-driven optimization in DEX aggregators and smart contracts
+
+How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
+These needs emerged from observing the current ecosystem: despite Polkadot’s strong multi-chain capabilities, users often struggle to access and interpret cross-chain data. At the same time, most existing trading platforms and aggregators within Polkadot do not leverage AI, leaving efficiency and user experience improvements untapped.
+These needs are evident from both research and community discussions. Studies highlight Polkadot’s complex multi-chain architecture and lack of standardized data access, which creates barriers for users ([arXiv 2023](https://arxiv.org/abs/2308.00735)
+). The Polkadot Growth Strategy Report notes the absence of data dashboards like DeFiLlama or L2beat, limiting visibility into TVL and liquidity across parachains. Community discussions on Polkadot Forum
+ and Reddit
+ further stress that traders lack unified tools to track trading volume and opportunities, often facing incomplete or inconsistent data. This evidence confirms the gap Vistia aims to fill with AI-powered trading and analytics.
+
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   - If so, how is your project different? Please identify and assess any projects addressing the same need and explain how your project is distinct. Feel free to include applicable research data, statistics, or metrics.
   - If not, please indicate why such a project might not have been possible, successful, or attempted. 
