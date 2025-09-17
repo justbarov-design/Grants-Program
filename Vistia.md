@@ -53,14 +53,20 @@ The project addresses three clear gaps:
 How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
 These needs emerged from observing the current ecosystem: despite Polkadot’s strong multi-chain capabilities, users often struggle to access and interpret cross-chain data. At the same time, most existing trading platforms and aggregators within Polkadot do not leverage AI, leaving efficiency and user experience improvements untapped.
 These needs are evident from both research and community discussions. Studies highlight Polkadot’s complex multi-chain architecture and lack of standardized data access, which creates barriers for users ([arXiv 2023](https://arxiv.org/abs/2308.00735)
-). The Polkadot Growth Strategy Report notes the absence of data dashboards like DeFiLlama or L2beat, limiting visibility into TVL and liquidity across parachains. Community discussions on Polkadot Forum
- and Reddit
+). The Polkadot Growth Strategy Report notes the absence of data dashboards like DeFiLlama or L2beat, limiting visibility into TVL and liquidity across parachains. Community discussions on [Polkadot Forum](https://polkadot.subsquare.io/polkassembly/posts/2148)
+ and [Reddit](https://www.reddit.com/r/Polkadot/comments/194ka28/is_there_a_way_to_see_dex_tvl_across_all_polkadot/)
  further stress that traders lack unified tools to track trading volume and opportunities, often facing incomplete or inconsistent data. This evidence confirms the gap Vistia aims to fill with AI-powered trading and analytics.
 
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different? Please identify and assess any projects addressing the same need and explain how your project is distinct. Feel free to include applicable research data, statistics, or metrics.
-  - If not, please indicate why such a project might not have been possible, successful, or attempted. 
-- Are there any projects similar to yours in related ecosystems? 
+Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+Within the Polkadot/Substrate ecosystem, there are projects such as rust-predict (an Ink!-based prediction market), TransparentAI (a hackathon project using AI + zkML to forecast lending protocol rates), and PolkaBotAI (an educational AI chatbot for Polkadot). However, these initiatives are usually limited to a single use case, such as prediction markets, forecasting, or chat assistance. Vistia differentiates itself by combining AI chatbot (SwapChat) for natural language swaps, AI-driven prediction models, and SmartMoney (capital delegation, profit sharing, trading bot) into one integrated system — extending from information delivery to full multichain DeFi execution.
+
+| Feature / Metric | Vistia | rust-predict (Prediction Market) | Subsquid (Indexing) | HydraDX (Omnipool DEX) | Moonbeam (EVM parachain) | Phala (TEE compute) |
+|---|---:|---:|---:|---:|---:|---:|
+| Core focus | AI chatbot + prediction + swap + smartmoney | On-chain prediction markets | Indexing & API for analytics | Omnipool liquidity DEX | EVM runtime, dApp compatibility | Confidential compute / TEE |
+| AI integration | ✔ agents: chat/prediction/trading | ✘ (market logic only) | ✘ | ✘ | ✘ | ✔ (can run secure AI workloads) |
+| Chat UX / swap | ✔ (SwapChat) | ✘ | ✘ | ✘ | ✘ | ✘ | 
+| Prediction models | ✔ AI-driven forecasts | ✔ prediction market (user bets) | ✘ | ✘ | ✘ | ✔ (if integrated) |
+| Smartmoney (delegation/profit share) | ✔ | ✘ | ✘ | ✘ (liquidity only) | ✔ (contracts possible) | ✔ (compute support) |
 
 ## Team :busts_in_silhouette:
 
