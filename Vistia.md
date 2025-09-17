@@ -1,42 +1,55 @@
 # Vistia
 
 - **Team Name:** Vistia
-- **Payment Details:**
-  - **DOT**: 
-  - **Payment**:(USDC) 
-- **[Level](https://grants.web3.foundation/docs/Introduction/levels):** Level 1
+- **Payment Details:** 
+  - **DOT**: 1219fvEtkwUJifAgT7T6tZxsvXrJL9R6VU9BrHzShGY2rXka
+  - **Payment**:(USDC) 1219fvEtkwUJifAgT7T6tZxsvXrJL9R6VU9BrHzShGY2rXka
+- **[Level]**: 1
 
 
 
 ## Project Overview :page_facing_up:
 
-This application is in response to an RFP
-
 ### Overview
-
+Our project focuses on bringing AI-powered automated trading into the Polkadot ecosystem, leveraging PolkaVM as the native execution layer for complex machine learning models. By embedding AI trading logic directly on-chain, we aim to ensure that every decision, from market analysis to trade execution, is transparent, verifiable, and free from off-chain dependency.\
+The scope of this proposal is to build a proof of concept demonstrating how AI-based strategies can run natively within Polkadot through PolkaVM, while accessing liquidity and interoperability across parachains. This approach reduces latency, lowers operational risk, and showcases how Polkadot can serve as a foundation for AI-integrated DeFi applications.\
+Our interest lies in exploring how AI and PolkaVM can combine to create a new class of autonomous financial infrastructure. We believe this work contributes not only to the growth of Polkadot’s DeFi ecosystem, but also to the broader vision of making advanced trading strategies accessible, trustworthy, and inherently verifiable on-chain.
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+**The initial MVP for AI Assistant UI design will feature the following web-based components:**
+- Home page: An introduction to Vistia ecosystem
+- AI Assistant chat UI: A messaging interface for users to interact with AI Assistant. Featuring many utilities with integrated text-to-action process.
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations that might not be obvious
+**The initial MVP for Smart Money UI design will feature the following web-based components:**
+- Vault Details: Display the selected vault information.
+- My Vaults: Display all your investments.
+- Top Holders: Display top 10 holders with the most shares in the selected vault.
+- Deposit Transactions: Display all deposit transactions of the selected vault.
+- Trade History: Display all transactions made by the trading bot.
 
+**Data Model:**
+- AI Assistant: AI Assistant is a chat-based agent that not only helps you gather information but also other tasks like swapping tokens, staking tokens to a pool,.... The conversation between the user and the agent will be saved in a database for personalization. Below is the agent workflow:\
+![AI-Swap](img/AI-Swap-flow.png)
+- Smart Money UI: Smart Money UI is an interactive interface that allows users to deposit and track trading vaults activities. Here, the users can take their idle tokens and put them to work through an asset vault smart contract. The vault will be trading for a period of time and after that automatically withdraws all of its assets - capital and profit - back to the holders based on their shares of the vault. Below is the deposit workflow of the vault:
+![AI-Smart-Money](/img/AI-Smartmoney-flow.png)
 
-Things that shouldn’t be part of the application (see also our [FAQ](../docs/faq.md)):
+**API:**
+- GET /vault/{vaultId}/shareholders/details: Get saved all shareholders details of the selected vault.
+- GET /vault/{vaultId}/deposits: Get saved all deposit transactions of the selected vault.
 
-- The (future) tokenomics of your project
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+**Tech stack:**
+- ReactJS + Vite
+- Typescript
+- NextJS
+- Python
+- FastAPI
+
+Prior Works:
+- [Dexonic](https://x.com/SCILabs_io/status/1879076862137335937): An on-chain Technical Analysis app and AI Assistant. 
+
 
 ### Ecosystem Fit
-
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 Where and how does your project fit into the ecosystem?\
 Vistia fits into the Polkadot ecosystem as an AI-native trading and analytics layer. It integrates Substrate with Polkadot APIs to collect on-chain data from parachains, applies predictive AI models for price forecasting and historical analysis, and deploys smart contracts for staking, fund delegation, and profit sharing. A React/Polkadot.js interface makes these features accessible and user-friendly, lowering the barrier for interacting with Polkadot’s multi-chain environment.
@@ -71,12 +84,12 @@ Within the Polkadot/Substrate ecosystem, there are projects such as rust-predict
 ## Team :busts_in_silhouette:
 
 ### Team members
-- Name of team leader: Luke Nguyen - Experienced in AI & Data, hands-on with infrastructure, logic, and algorithmic design for technical indicators and AI auto trading\
+- Name of team leader: Luke Nguyen - Experienced in AI & Data, hands-on with infrastructure, logic, and algorithmic design for technical indicators and AI auto trading
 - Names of team members:\
 **Phung Van Thien** – 9 years in trading,  5 years in Web3. Also, a smart contract developer with hands-on experience building secure, efficient trading platforms across multiple chains\
 **Barov Vi** - Over 3 years in Web3 across marketing and BD roles in projects, incubators, and outsourcing driven by a passion for building strong, value-focused communities.\
 **Loc La** - Casual trader with a strong technical background, hands-on with multiple front-end and back-end frameworks, and experienced in building and scaling Web3 products \
-**Armin Nguyen** - Front-end developer with 2 years in Web3. Passionate about clean UI/UX and precision in execution \
+**Armin Nguyen** - Front-end developer with 2 years in Web3. Passionate about clean UI/UX and precision in execution 
 
 ### Contact
 - **Contact Name:** Nguyen Duc Loc
@@ -138,16 +151,16 @@ Community & Partnerships: Engaged in discussions with Hedera Foundation and Pock
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested.
-- **DOT %:** Percentage of Total Costs to be paid in (vested) DOT (≥ 50%)
+- **Total Estimated Duration:** 3 months
+- **Full-Time Equivalent (FTE):**  11
+- **Total Costs:** 10,000 USD
+- **DOT %:** 50%
 
 ### Milestone 1 Example — Implementation of Vistia Core Modules on Polkadot
 
 - **Estimated duration:** 15 days
 - **FTE:**  3
-- **Costs:** $2,500
+- **Costs:** 2,500 USD
 
 # Vistia Deliverables – Set 2
 
@@ -211,23 +224,24 @@ Community & Partnerships: Engaged in discussions with Hedera Foundation and Pock
 
 Please include here
 
-- how you intend to finance the project's long-term maintenance and development,
-- how you intend to use, enhance, and promote your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+**Sustainability & Growth Model**\
+Revenue will come from performance fees on SmartMoney vaults and transaction fees from the AI Trading Assistant. Premium AI services for professional traders will provide an additional revenue layer. In the early phase, ecosystem grants from Polkadot Treasury and parachain teams will support scaling without diluting ownership.
+
+**Near-Term Priorities**\
+We will finalize and launch the AI Vault and AI Trading Assistant on EVM-compatible chains, improve prediction accuracy by combining on-chain data (via Substrate API) with real-time market feeds (CoinGecko, CMC), and integrate AI Swapchat for user interaction. Promotion will focus on community campaigns, live demos, and collaborations with parachains and DEXs to drive adoption.
+
+**Long-Term Vision**\
+Vistia aims to become the AI-native DeFi of the Polkadot ecosystem, expanding from trading to full asset management and cross-chain strategy optimization. Governance will gradually shift to a DAO model, while ensuring continuous security audits, institutional-grade reliability, and a seamless UX that attracts both retail and institutional traders.
 
 ## Referral Program (optional) :moneybag:
 
 You can find more information about the program [here](https://grants.web3.foundation/docs/referral-program).
 
-- **Referrer:** Name of the Polkadot Ambassador or GitHub account of the Web3 Foundation grantee
-- **Payment Address:** Polkadot/Kusama (USDC) payment address. Please also specify the currency. (e.g. 15oF4... (USDC))
+- **Referrer:** Open Guild
+- **Payment Address:**
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?**\
+Referred by Open Guild
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
