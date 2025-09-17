@@ -41,53 +41,46 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 Where and how does your project fit into the ecosystem?
 Vistia fits into the Polkadot ecosystem as an AI-native trading and analytics layer. It integrates Substrate with Polkadot APIs to collect on-chain data from parachains, applies predictive AI models for price forecasting and historical analysis, and deploys smart contracts for staking, fund delegation, and profit sharing. A React/Polkadot.js interface makes these features accessible and user-friendly, lowering the barrier for interacting with Polkadot’s multi-chain environment.
 
-Who is your target audience?
+Who is your target audience?\
 The primary audience is traders on Polkadot who seek better tools for analyzing markets, predicting price movements, and managing capital more effectively across parachains.
 
-What need(s) does your project meet?
+What need(s) does your project meet?\
 The project addresses three clear gaps: 
 (1) the steep learning curve for new users engaging with Polkadot’s multi-chain design
 (2) the absence of AI-native tools that analyze and predict trading opportunities
 (3) the lack of AI-driven optimization in DEX aggregators and smart contracts
 
-How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
+How did you identify these needs?\
 These needs emerged from observing the current ecosystem: despite Polkadot’s strong multi-chain capabilities, users often struggle to access and interpret cross-chain data. At the same time, most existing trading platforms and aggregators within Polkadot do not leverage AI, leaving efficiency and user experience improvements untapped.
 These needs are evident from both research and community discussions. Studies highlight Polkadot’s complex multi-chain architecture and lack of standardized data access, which creates barriers for users ([arXiv 2023](https://arxiv.org/abs/2308.00735)
 ). The Polkadot Growth Strategy Report notes the absence of data dashboards like DeFiLlama or L2beat, limiting visibility into TVL and liquidity across parachains. Community discussions on [Polkadot Forum](https://polkadot.subsquare.io/polkassembly/posts/2148)
  and [Reddit](https://www.reddit.com/r/Polkadot/comments/194ka28/is_there_a_way_to_see_dex_tvl_across_all_polkadot/)
  further stress that traders lack unified tools to track trading volume and opportunities, often facing incomplete or inconsistent data. This evidence confirms the gap Vistia aims to fill with AI-powered trading and analytics.
 
-Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?\
 Within the Polkadot/Substrate ecosystem, there are projects such as rust-predict (an Ink!-based prediction market), TransparentAI (a hackathon project using AI + zkML to forecast lending protocol rates), and PolkaBotAI (an educational AI chatbot for Polkadot). However, these initiatives are usually limited to a single use case, such as prediction markets, forecasting, or chat assistance. Vistia differentiates itself by combining AI chatbot (SwapChat) for natural language swaps, AI-driven prediction models, and SmartMoney (capital delegation, profit sharing, trading bot) into one integrated system — extending from information delivery to full multichain DeFi execution.
 
-| Feature / Metric | Vistia | rust-predict (Prediction Market) | Subsquid (Indexing) | HydraDX (Omnipool DEX) | Moonbeam (EVM parachain) | Phala (TEE compute) |
-|---|---:|---:|---:|---:|---:|---:|
-| Core focus | AI chatbot + prediction + swap + smartmoney | On-chain prediction markets | Indexing & API for analytics | Omnipool liquidity DEX | EVM runtime, dApp compatibility | Confidential compute / TEE |
-| AI integration | ✔ agents: chat/prediction/trading | ✘ (market logic only) | ✘ | ✘ | ✘ | ✔ (can run secure AI workloads) |
-| Chat UX / swap | ✔ (SwapChat) | ✘ | ✘ | ✘ | ✘ | ✘ | 
-| Prediction models | ✔ AI-driven forecasts | ✔ prediction market (user bets) | ✘ | ✘ | ✘ | ✔ (if integrated) |
-| Smartmoney (delegation/profit share) | ✔ | ✘ | ✘ | ✘ (liquidity only) | ✔ (contracts possible) | ✔ (compute support) |
+| Feature / Metric                    | Vistia                                 | rust-predict (Prediction Market) | Subsquid (Indexing)         | HydraDX (Omnipool DEX)    | Moonbeam (EVM parachain)   | Phala (TEE compute)              |
+|-------------------------------------|----------------------------------------|---------------------------------|-----------------------------|---------------------------|-----------------------------|---------------------------------|
+| Core focus                          | AI chatbot + prediction + swap + smartmoney | On-chain prediction markets     | Indexing & API for analytics | Omnipool liquidity DEX    | EVM runtime, dApp compatibility | Confidential compute / TEE       |
+| AI integration                      | ✔ agents: chat/prediction/trading      | ✘ (market logic only)           | ✘                           | ✘                         | ✘                           | ✔ (can run secure AI workloads) |
+| Chat UX / swap                      | ✔ (SwapChat)                           | ✘                               | ✘                           | ✘                         | ✘                           | ✘                               |
+| Prediction models                   | ✔ AI-driven forecasts                  | ✔ prediction market (user bets) | ✘                           | ✘                         | ✘                           | ✔ (if integrated)               |
+| Smartmoney (delegation/profit share)| ✔                                      | ✘                               | ✘                           | ✘ (liquidity only)        | ✔ (contracts possible)      | ✔ (compute support)              |
 
 ## Team :busts_in_silhouette:
 
 > [!IMPORTANT]
-> Please note that the data provided in this section is for administrative and informational purposes only. All beneficiaries of a grant must also be listed in the KYC/KYB process during the application phase. See our [FAQ](https://grants.web3.foundation/docs/faq#what-is-kyckyb-and-why-do-i-have-to-provide-this-data) for more info.
 
 ### Team members
-
 - Name of team leader
 - Names of team members
 
 ### Contact
-
 - **Contact Name:** Full name of the contact person in your team
 - **Contact Email:** Contact email (e.g. john@duo.com)
 - **Website:** Your website
 
-### Legal Structure
-
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
 
