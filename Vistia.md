@@ -120,22 +120,21 @@ Please also provide the GitHub accounts of all team members.
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+GitHub Repository: Frontend React implementation (private repository) integrating wallet connections and AI modules, including Trading Assistant, AI SwapChat, and AI SmartMoney.
 
-- links to improvement proposals or [RFPs](https://grants.web3.foundation/docs/rfps) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+Smart Contracts: Prototype of the SmartMoney vault contract deployed on Hedera mainnet, designed for extension to EVM-compatible chains.
+
+AI Modules: Integration of AI Prediction, AI SmartMoney, and AI SwapChat with real-time market APIs (CoinGecko, CMC).
+
+Research & Documentation: [Internal reports](https://docs.google.com/document/d/1N9Y6GDC3xMGEnbyiJlb5Pzegfgtr9Hw7XFR9-_Nzr-U/edit?usp=sharing) outlining AI-based trading strategies and decentralized vault management mechanisms. Research inspired by existing DeFi improvement proposals and token vault designs, adapted into the AI SmartMoney concept.
+
+Design Iterations: Early wireframes and user interface mockups developed for the Vistia vault dashboard (https://vault.vistia.co/vault
+).
+
+Community & Partnerships: Engaged in discussions with Hedera Foundation and Pocket Network through their grant programs, receiving feedback and guidance from senior leadership to refine the product roadmap.
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/Support%20Docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We *recommend* that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-> [!CAUTION]
-> If any of your deliverables are based on somebody else's work, make sure you work and publish *under the terms of the license* of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Projects that submit other people's work without proper attribution will be immediately terminated.**
 
 ### Overview
 
@@ -144,38 +143,69 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 - **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested.
 - **DOT %:** Percentage of Total Costs to be paid in (vested) DOT (≥ 50%)
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 Example — Implementation of Vistia Core Modules on Polkadot
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Estimated duration:** 15 days
+- **FTE:**  3
+- **Costs:** $2,500
 
-> [!NOTE]
-> **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one.
+# Vistia Deliverables – Set 2
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#license) for details. |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#documentation) for details. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#testing-guide) for details. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| Number | Deliverable       | Specification                                                                                                                                                                                                 |
+|--------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0a.    | License          | Apache License 2.0                                                                                                                                                                                          |
+| 0b.    | Documentation    | Documentation will include the business & technical framework of Vistia subsystems (AI Chatbot, AI Swapchat, AI Prediction, AI Smartmoney). We also provide Dapp tutorials (including video), SDK/API integration guides, and deployment docs for other Polkadot ecosystem applications. |
+| 0c.    | Testing Guide    | Provide a full test suite & testing guide. Code will cover unit tests of core functions in AI Prediction and Smartmoney to ensure stability & reliability.                                                    |
+| 0d.    | Docker           | We will provide a Dockerfile(s) that can be used to test all functionality delivered with this milestone. (Includes Dockerfile to run the full application – node + pallet + UI – in a demo environment).     |
+| 0e.    | Article/Tutorial | Write an article and tutorial explaining how Vistia subsystems (AI Swapchat & Smartmoney) work as part of the grant.                                                                                         |
+| 1a.    | Node Repo        | Complete the deployment of a testnet node for Vistia on Substrate.                                                                                                                                           |
+| 2a.    | Pallet_chatbot   | Complete AI Chatbot pallet: provides ability to query on-chain token info, transaction history, staking/governance data from Polkadot/Kusama.                                                                |
+| 2b.    | Pallet_swapchat  | Complete AI Swapchat pallet: suggests cross-chain transaction routes based on liquidity pool data from Polkadot parachains.                                                                                  |
+| 2c.    | Pallet_prediction| Develop AI Prediction pallet: integrates on-chain data + market data from Oracle to forecast token prices in the next trading session.                                                                       |
+| 2d.    | Pallet_smartmoney| Complete Smartmoney pallet: includes fund delegation, automatic profit-sharing based on contribution ratio, and integration with Substrate treasury module.                                                   |
+| 2e.    | Pallet_dao       | Develop DAO pallet for Vistia: includes whitelist voting for supported tokens, DAO fund distribution voting, and governance module.                                                                           |
+| 3.     | UI/Design        | UI design based on Vistia mockups: interface displays chatbot, swapchat, prediction charts & Smartmoney dashboard.                                                                                            |
+| 4.     | User Interface   | Build React.js-based UI integrated with pallets & Substrate RPC.                                                                                                                                             |
+
+### Milestone 2 Example — Additional features
+
+- **Estimated Duration:** 1 month
+- **FTE:**  4
+- **Costs:** 3,500 USD
+
+| Number | Deliverable                | Specification                                                                                                                                      |
+|--------|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0a.    | License                    | Apache License 2.0                                                                                                                                |
+| 0b.    | Documentation              | Detailed documentation on integrating AI Chatbot & AI SwapChat with Polkadot VM, including technical architecture, SDK/API endpoints, developer guide, and video tutorial. |
+| 0c.    | Testing Guide              | Comprehensive test suite for Chatbot and SwapChat on Polkadot VM, including unit tests, integration tests, and performance tests (≥ 1,000 requests/s). |
+| 0d.    | Docker                     | Dockerfile(s) provided to test all milestone functionality (full stack: node, VM contracts, AI engine + UI).                                      |
+| 0e.    | Article/Tutorial           | Article & tutorial: “AI Chatbot & SwapChat on Polkadot VM – The Next-Gen DeFi Assistant.”                                                          |
+| 1a.    | VM Smart Contract Repo     | Implementation of Polkadot VM-compatible smart contracts for on-chain Chatbot queries and SwapChat cross-chain transaction logic.                  |
+| 2a.    | AI Chatbot VM Integration  | Integration of AI Chatbot with Polkadot VM: enabling user queries for token, staking, and governance data via VM-based execution.                   |
+| 2b.    | AI SwapChat VM Integration | Integration of AI SwapChat with Polkadot VM: optimized routing of cross-chain transactions (XCMP/HRMP) and swap suggestions from AMM parachains.   |
+| 3.     | UI/Design                  | Updated UI for chatbot and swap interfaces, directly connected to VM smart contracts.                                                              |
+| 4.     | User Interface             | Frontend UI connected to Polkadot VM (via RPC/WebAssembly API).                                                                                    |
 
 
 ### Milestone 2 Example — Additional features
 
 - **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **FTE:**  4
+- **Costs:** 4,000 USD
 
-...
-
+| Number | Deliverable             | Specification                                                                                                                                                                         |
+|--------|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0a.    | License                 | Apache License 2.0                                                                                                                                                                  |
+| 0b.    | Documentation           | Technical documentation on AI Smartmoney + DAO Governance on Polkadot VM: contract architecture, treasury management, and profit-sharing mechanisms.                               |
+| 0c.    | Testing Guide           | Test suite for Smartmoney contract: covers deposit/withdraw, profit-sharing, and DAO voting. Includes fuzz testing & baseline security audit to ensure robustness.                  |
+| 0d.    | Docker                  | We will provide a Dockerfile(s) that can be used to test all functionality delivered with this milestone. (Full environment: node + VM contracts + AI engine + governance UI).      |
+| 0e.    | Article/Tutorial        | Write article & tutorial: “AI Smartmoney – Automating Capital Delegation on Polkadot VM”.                                                                                            |
+| 1a.    | VM Smart Contract Repo  | VM smart contracts implementing delegation pool logic, profit-sharing, and DAO voting.                                                                                             |
+| 2a.    | AI Smartmoney VM Integration | Integrate Smartmoney into Polkadot VM: allows investors to delegate capital using tokens within the Polkadot ecosystem and receive periodic profit-sharing.                      |
+| 2b.    | DAO Governance Integration  | Deploy DAO module: users can vote to whitelist tokens, decide on fund allocation, and manage the community treasury.                                                               |
+| 2c.    | Treasury & Reward Pool  | Build treasury pool & automated reward distribution mechanisms, tied to Polkadot staking & restaking.                                                                              |
+| 3.     | UI/Design               | Design dashboard displaying: total delegated capital, profit-sharing ratio, DAO voting results, and investor list.                                                                 |
+| 4.     | User Interface          | React.js UI + Polkadot.js API + Substrate RPC, enabling users to directly join pools, claim rewards, and participate in governance voting.                                          |
 
 ## Future Plans
 
