@@ -38,7 +38,7 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
-Where and how does your project fit into the ecosystem?
+Where and how does your project fit into the ecosystem?\
 Vistia fits into the Polkadot ecosystem as an AI-native trading and analytics layer. It integrates Substrate with Polkadot APIs to collect on-chain data from parachains, applies predictive AI models for price forecasting and historical analysis, and deploys smart contracts for staking, fund delegation, and profit sharing. A React/Polkadot.js interface makes these features accessible and user-friendly, lowering the barrier for interacting with Polkadot’s multi-chain environment.
 
 Who is your target audience?\
@@ -70,38 +70,52 @@ Within the Polkadot/Substrate ecosystem, there are projects such as rust-predict
 
 ## Team :busts_in_silhouette:
 
-> [!IMPORTANT]
-
 ### Team members
-- Name of team leader
-- Names of team members
+- Name of team leader: Luke Nguyen - Experienced in AI & Data, hands-on with infrastructure, logic, and algorithmic design for technical indicators and AI auto trading\
+- Names of team members:\
+**Phung Van Thien** – 9 years in trading,  5 years in Web3. Also, a smart contract developer with hands-on experience building secure, efficient trading platforms across multiple chains\
+**Barov Vi** - Over 3 years in Web3 across marketing and BD roles in projects, incubators, and outsourcing driven by a passion for building strong, value-focused communities.\
+**Loc La** - Casual trader with a strong technical background, hands-on with multiple front-end and back-end frameworks, and experienced in building and scaling Web3 products \
+**Armin Nguyen** - Front-end developer with 2 years in Web3. Passionate about clean UI/UX and precision in execution \
 
 ### Contact
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Nguyen Duc Loc
+- **Contact Email:** locduc1999@gmail.com
+- **Website:** www.vistia.co
 
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+We are a team shaped by years of experience across professional trading, blockchain architecture, and real world product development. Several members have spent nearly a decade in financial markets, building and optimizing trading systems. Others have worked across the Web3 landscape, developing everything from smart contracts to scalable backend systems and data layers. Our design philosophy is rooted in precision, transparency, and a commitment to building tools that serve real users.
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+Our team has consistently demonstrated the technical capacity to deliver and sustain complex blockchain projects:
+Hackathon Awards: Recognized in multiple Web3 hackathons, including [Polkadot](https://x.com/openguildwtf/status/1878789352807105021) and [Algorand](https://x.com/VistiaAI/status/1806339133574717915),... for building innovative DeFi and AI-driven solutions.
+Incubation Programs: Successfully participated in [Algorand](https://explorer.perawallet.app/asset/2351786320/) and [Pocket Network](https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=4014434fec&attid=0.1&permmsgid=msg-f:1838865922536691355&th=1984f6d0565ed69b&view=att&disp=inline&realattid=f_mdmnaaqa0&zw&saddbat=ANGjdJ-Kffav4jptYXAYzFXR-q8G2mBXJbokvAzYIKUbx7a3pBBbkqhzSySqNnukxOiSeplNL4U02bjfoXvw1dwHtBgePL71ljA8BolGuOY8jPTJ7gHOMZ-gA2Pqgo0ZPBwIuKtB61eMb-zqu4lJRpYSewI2D7DRRyoaMEuIyr_rBcKWzGFzYpnMVo3WT76PhGujpAgdrVFT2NhbkyGM4uIbUjuMX4qR1Q4fyqypAaq9-SDRL7EsRCCoHKGVtPJLZ0or-7d0KrGwOmHpcwsSjVvJpc8NFeFzrPrwRqyObUnMUylyMav4Zxb_2cttjZZpuQ-vU4LxSlwj4OyqWokvZjwR4rJI9_ooteUUzokpAOJo9pwyZs6ju9aPF-oWqzswC-_zcgLoIxFrspwpVwsDbfuCfB1qdc3Ifeg4_QgLM8C5NLWHcOy4vjiIULB7zIUcLVjyrJgp6sT-DF27tpGuvM30udcj9tIP-zoxZVDo7WjCZ0WUApC26zKrRFVDD2g7mzvhdRTAy5AHNmDnD6ulPRZw-VHC4EQCr0oYPvrCgDyWeyvb-e7QVz0vtoRRP-MPnFOaExiKnMUkaj4dZwo8qAbs8Z6sADsUn3vI2scvd_yJxNO6i8vRhq3rxAbeNPv4mDSV4OM-rjNS_gvt_i8Vbd-qm6DR5zFCRQ2-u8sYfEO9PQJ7QpOzCpHPORUyp5e-weVw6l05H2pkX_LxpHbbCCULoHNAuo_xUA1Mc5lFpOEHmGbzGjR5vAejxH2yPgl-khf5pxBSazIXFktq1zMSq64x84WCkvc5GiGmoj4I8k1WqdjsyceuHsSrPKNeqc3jXeWS5Ygv9FaAPsd6x1kXdqrgwGTH9gCLd8CZRYLPcl4tmHVV0NG5nm2Irz_XYHYCCvkUDru1cf_AVbcj7hWemea_tYH5cGkpab1RPIs76yPFBzN1fZ2387s9erLL8Kt9CUKWLgBIe2gm2EkZq_hP9mEnf0S-9TddiA9PuUOscnhGtyfhbTNmssJgsex1OX5TsGARS13p8Sw3aOQ-yvmkrr8V5rJ8HNwvVuZjWNoSTeMVHGNMbqCDpd_bPY3pkugpeFlToMF9uhVTaPX8uHNJ) incubation programs, where we refined both the technical architecture and go-to-market strategy.
+Grants Secured: Received ecosystem grants from [Hedera](https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=4014434fec&attid=0.2&permmsgid=msg-f:1838865922536691355&th=1984f6d0565ed69b&view=att&disp=inline&realattid=f_mdmnaas01&zw&saddbat=ANGjdJ-fM381WqB9xzvyJMtCK5GCM3F__QBKkhAn17_SzqnvswJ3nYazAIlh4mdiQzLStQIqzFnzjST-9K0jMBv0Y6D_NIoglKmZuNfEB9nStLeMaHbT56uMG6etBFJgnJE6z7EtQTdqZm0NPEYlzIS3o1SgNZ2bS5-tgLCoOYKQ1IFHQrFyjagh61uFRBPTokb_fpbWfcyn5zuq5hyfBGlXlbh_h-70qveolCZno6H9ZpShaOO7ZXdHyqXmKGPDW7_yk2QiqXi6ybTPEsVGmUm7HBn7Vgva2miGvVrMBH_GstUMEVFFtXDbx4YP_sbVMO0gBmqOz2P9sSzOdLbZ_SAwJ9fdTbSYRGMcc7p6arJOkYc_q3kLQrEH_vKYwlT_ba8mnQjrDPgtsGuNOzyfwUuxJ1OOYMrLwkjzzABDXqQMa8wl9gnIaA6IAIBjGUIuD9Zbeu9uBu-nNo_6z_S9PXoomLk26ZhQLrGZSYQdrqJPxbUjWTqmfiOdQx4_LHKfaW2uJvj8OIP0DCNB9V8QaqtSM4jdq0POPUy8-p7Whfv530rtg9pvmjW435H7Hw0HZBD0oCcP2tbHcd-rOpLGKONREj8gA5Cclw0EywdYSBQo7AuJlx3FZFhGDqfGcjvlen9mxq9uMfZLCUjzvxFcOYX2QsZ-jIZi2OOnoFly_H-3d96DFc9Zmi5k4Dsm28iOGVgm_KRsh6EtiLeajLzt_XfS2JWnouJi8mZDwwqpa-AEaL_0a02KKkGwXInn3BnS0BTMjTFa72sT55na3Jo_XLiQ2dUul-9HyY8Egma5-_WyKx7p_RIqUlcrC48XEgJpLNXITnMMHGPgk8dDdftiSTooz9MBYnM4_Ssf9q4nNweCZYr3LdpQfCbtu9xDVUqUEwEfO_9CU2lNkWnuPZqzt89Q6YmoNpRxgYlPPsPPYjtxHOYawHv_hk_uo_4GStgyZjncq_QOlU2WV0nD3aaFRhskGTWB_Bk9pweIHv6TjB9Och5mQ2-JHWgHi95b8E9alN_F6rL5gHAKc-1pgYk0o2iUEJuHbftm9CYl_7vO83tj5A23pKlN3AttFLlgoLZaTbUwA6b9vsFxlxW7CqN-) and [Pocket Network](https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=4014434fec&attid=0.2&permmsgid=msg-f:1838865922536691355&th=1984f6d0565ed69b&view=att&disp=inline&realattid=f_mdmnaas01&zw&saddbat=ANGjdJ-fM381WqB9xzvyJMtCK5GCM3F__QBKkhAn17_SzqnvswJ3nYazAIlh4mdiQzLStQIqzFnzjST-9K0jMBv0Y6D_NIoglKmZuNfEB9nStLeMaHbT56uMG6etBFJgnJE6z7EtQTdqZm0NPEYlzIS3o1SgNZ2bS5-tgLCoOYKQ1IFHQrFyjagh61uFRBPTokb_fpbWfcyn5zuq5hyfBGlXlbh_h-70qveolCZno6H9ZpShaOO7ZXdHyqXmKGPDW7_yk2QiqXi6ybTPEsVGmUm7HBn7Vgva2miGvVrMBH_GstUMEVFFtXDbx4YP_sbVMO0gBmqOz2P9sSzOdLbZ_SAwJ9fdTbSYRGMcc7p6arJOkYc_q3kLQrEH_vKYwlT_ba8mnQjrDPgtsGuNOzyfwUuxJ1OOYMrLwkjzzABDXqQMa8wl9gnIaA6IAIBjGUIuD9Zbeu9uBu-nNo_6z_S9PXoomLk26ZhQLrGZSYQdrqJPxbUjWTqmfiOdQx4_LHKfaW2uJvj8OIP0DCNB9V8QaqtSM4jdq0POPUy8-p7Whfv530rtg9pvmjW435H7Hw0HZBD0oCcP2tbHcd-rOpLGKONREj8gA5Cclw0EywdYSBQo7AuJlx3FZFhGDqfGcjvlen9mxq9uMfZLCUjzvxFcOYX2QsZ-jIZi2OOnoFly_H-3d96DFc9Zmi5k4Dsm28iOGVgm_KRsh6EtiLeajLzt_XfS2JWnouJi8mZDwwqpa-AEaL_0a02KKkGwXInn3BnS0BTMjTFa72sT55na3Jo_XLiQ2dUul-9HyY8Egma5-_WyKx7p_RIqUlcrC48XEgJpLNXITnMMHGPgk8dDdftiSTooz9MBYnM4_Ssf9q4nNweCZYr3LdpQfCbtu9xDVUqUEwEfO_9CU2lNkWnuPZqzt89Q6YmoNpRxgYlPPsPPYjtxHOYawHv_hk_uo_4GStgyZjncq_QOlU2WV0nD3aaFRhskGTWB_Bk9pweIHv6TjB9Och5mQ2-JHWgHi95b8E9alN_F6rL5gHAKc-1pgYk0o2iUEJuHbftm9CYl_7vO83tj5A23pKlN3AttFLlgoLZaTbUwA6b9vsFxlxW7CqN-), validating both our technical roadmap and community value proposition.
+
+
+Each of us brings a distinct perspective. Some focus deeply on market structure and execution. Others obsess over user flows, security models, and onchain performance. We share a belief that great products are not just about innovation, but about solving problems with clarity and intention. That belief keeps us grounded as we ship features that users actually use, while remaining agile in an evolving ecosystem.
+
 
 ### Team Code Repos
 
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
+- https://github.com/Vistia-AI
+- https://github.com/Vistia-AI/SmartMoneyAI_Hedera
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+Please also provide the GitHub accounts of all team members.
 
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+- https://github.com/DucLoc1999
+- https://www.linkedin.com/in/thienphungvan/
+- https://github.com/nguyenPhuocLoc99
+- https://github.com/AnHoang12
 
-### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
+### Team LinkedIn Profiles
+
+- https://www.linkedin.com/in/loc-duc-8497ab187/
+- https://www.linkedin.com/in/thienphungvan/
+- https://www.linkedin.com/in/vibao3902/
+- https://www.linkedin.com/in/anhoang12/
 
 
 ## Development Status :open_book:
