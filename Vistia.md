@@ -31,7 +31,7 @@ Our interest lies in exploring how AI and PolkaVM can combine to create a new cl
 **Data Model:**
 - AI Assistant: AI Assistant is a chat-based agent that not only helps you gather information but also other tasks like swapping tokens, staking tokens to a pool,.... The conversation between the user and the agent will be saved in a database for personalization. Below is the agent workflow:\
 ![AI-Swap](img/AI-Swap-flow.png)
-- Smart Money UI: Smart Money UI is an interactive interface that allows users to deposit and track trading vaults activities. Here, the users can take their idle tokens and put them to work through an asset vault smart contract. The vault will be trading for a period of time and after that automatically withdraws all of its assets - capital and profit - back to the holders based on their shares of the vault. Below is the deposit workflow of the vault:
+- Smart Money UI: Smart Money UI is an interactive interface that allows users to deposit and track trading vaults activities. Here, the users can take their idle tokens and put them to work through an asset vault smart contract. The vault will be trading for a period of time and after that automatically withdraws all of its assets - capital and profit - back to the holders based on their shares of the vault. Below is the deposit workflow of the vault:\
 ![AI-Smart-Money](/img/AI-Smartmoney-flow.png)
 
 **API:**
